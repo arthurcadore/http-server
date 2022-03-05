@@ -1,5 +1,8 @@
-all:
-	gcc server.c -o ./compiled/server 
+all: buildDir
+	gcc server.c -o ./build/server 
+
+buildDir:
+	mkdir build
 
 run:
-	./compiled/server
+	./build/server
