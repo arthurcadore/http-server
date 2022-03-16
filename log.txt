@@ -44,3 +44,7 @@
 [EVENT]	16/03/2022 10:12:57 :	Socket criado
 [EVENT]	16/03/2022 10:12:57 :	Socket vinculado à porta TCP
 [EVENT]	16/03/2022 10:12:57 :	Modo de escuta do socket ativado
+[EVENT]	16/03/2022 10:21:35 :	Inicializando servidor
+[EVENT]	16/03/2022 10:21:35 :	Socket criado
+[EVENT]	16/03/2022 10:21:35 :	Socket vinculado à porta TCP
+[EVENT]	16/03/2022 10:21:35 :	Modo de escuta do socket ativado
