@@ -9,4 +9,5 @@
 #include <sys/types.h>
 #include <unistd.h>
 
+// Incluindo o arquivo de funções complementares.
 #include "functions.c"

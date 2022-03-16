@@ -48,3 +48,39 @@
 [EVENT]	16/03/2022 10:21:35 :	Socket criado
 [EVENT]	16/03/2022 10:21:35 :	Socket vinculado à porta TCP
 [EVENT]	16/03/2022 10:21:35 :	Modo de escuta do socket ativado
+[EVENT]	16/03/2022 10:59:50 :	Inicializando servidor
+[EVENT]	16/03/2022 10:59:50 :	Socket criado
+[EVENT]	16/03/2022 10:59:50 :	Socket vinculado à porta TCP
+[EVENT]	16/03/2022 10:59:50 :	Modo de escuta do socket ativado
+[EVENT]	16/03/2022 10:59:53 :	Conexão com o cliente aberta
+[EVENT]	16/03/2022 10:59:53 :	Página enviada ao cliente
+[EVENT]	16/03/2022 10:59:53 :	Conexão com o cliente encerrada
+[EVENT]	16/03/2022 10:59:57 :	Conexão com o cliente aberta
+[EVENT]	16/03/2022 10:59:57 :	Página enviada ao cliente
+[EVENT]	16/03/2022 10:59:57 :	Conexão com o cliente encerrada
+[EVENT]	16/03/2022 10:59:57 :	Conexão com o cliente aberta
+[EVENT]	16/03/2022 10:59:57 :	Página enviada ao cliente
+[EVENT]	16/03/2022 10:59:57 :	Conexão com o cliente encerrada
+[EVENT]	16/03/2022 11:39:23 :	Inicializando servidor
+[EVENT]	16/03/2022 11:39:23 :	Socket criado
+[EVENT]	16/03/2022 11:39:23 :	Socket vinculado à porta TCP
+[EVENT]	16/03/2022 11:39:23 :	Modo de escuta do socket ativado
+[EVENT]	16/03/2022 11:39:31 :	Inicializando servidor
+[EVENT]	16/03/2022 11:39:31 :	Socket criado
+[EVENT]	16/03/2022 11:39:31 :	Socket vinculado à porta TCP
+[EVENT]	16/03/2022 11:39:31 :	Modo de escuta do socket habilitado
+[EVENT]	16/03/2022 11:39:34 :	Conexão com o cliente aberta
+[EVENT]	16/03/2022 11:39:34 :	Página enviada ao cliente
+[EVENT]	16/03/2022 11:39:34 :	Conexão com o cliente encerrada
+[EVENT]	16/03/2022 11:39:44 :	Conexão com o cliente aberta
+[EVENT]	16/03/2022 11:39:44 :	Página enviada ao cliente
+[EVENT]	16/03/2022 11:39:44 :	Conexão com o cliente encerrada
+[EVENT]	16/03/2022 11:39:44 :	Conexão com o cliente aberta
+[EVENT]	16/03/2022 11:39:44 :	Página enviada ao cliente
+[EVENT]	16/03/2022 11:39:44 :	Conexão com o cliente encerrada
+[EVENT]	16/03/2022 11:39:45 :	Conexão com o cliente aberta
+[EVENT]	16/03/2022 11:39:45 :	Página enviada ao cliente
+[EVENT]	16/03/2022 11:39:45 :	Conexão com o cliente encerrada
+[EVENT]	16/03/2022 11:39:45 :	Conexão com o cliente aberta
+[EVENT]	16/03/2022 11:39:45 :	Página enviada ao cliente
+[EVENT]	16/03/2022 11:39:45 :	Conexão com o cliente encerrada
