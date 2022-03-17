@@ -34,5 +34,6 @@ void log_event(char type[], char text[]) {
 
     fclose(file);
 
+    // retorno vazio.
     return;
 }

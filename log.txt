@@ -161,3 +161,35 @@
 [EVENT]	17/03/2022 09:13:04 :	Conexão com o cliente aberta
 [EVENT]	17/03/2022 09:13:04 :	Página enviada ao cliente
 [EVENT]	17/03/2022 09:13:04 :	Conexão com o cliente encerrada
+[EVENT]	17/03/2022 09:43:31 :	Inicializando servidor
+[EVENT]	17/03/2022 09:43:31 :	Socket criado
+[EVENT]	17/03/2022 09:43:31 :	Socket vinculado à porta TCP
+[EVENT]	17/03/2022 09:43:31 :	Modo de escuta do socket habilitado
+[EVENT]	17/03/2022 09:43:45 :	Conexão com o cliente aberta
+[EVENT]	17/03/2022 09:43:45 :	Página enviada ao cliente
+[EVENT]	17/03/2022 09:43:45 :	Conexão com o cliente encerrada
+[EVENT]	17/03/2022 09:43:46 :	Conexão com o cliente aberta
+[EVENT]	17/03/2022 09:43:46 :	Página enviada ao cliente
+[EVENT]	17/03/2022 09:43:46 :	Conexão com o cliente encerrada
+[EVENT]	17/03/2022 09:43:46 :	Conexão com o cliente aberta
+[EVENT]	17/03/2022 09:43:46 :	Página enviada ao cliente
+[EVENT]	17/03/2022 09:43:46 :	Conexão com o cliente encerrada
+[EVENT]	17/03/2022 09:43:46 :	Conexão com o cliente aberta
+[EVENT]	17/03/2022 09:43:46 :	Página enviada ao cliente
+[EVENT]	17/03/2022 09:43:46 :	Conexão com o cliente encerrada
+[EVENT]	17/03/2022 09:44:22 :	Inicializando servidor
+[EVENT]	17/03/2022 09:44:22 :	Socket criado
+[EVENT]	17/03/2022 09:44:22 :	Socket vinculado à porta TCP
+[EVENT]	17/03/2022 09:44:22 :	Modo de escuta do socket habilitado
+[EVENT]	17/03/2022 09:44:26 :	Conexão com o cliente aberta
+[EVENT]	17/03/2022 09:44:26 :	Página enviada ao cliente
+[EVENT]	17/03/2022 09:44:26 :	Conexão com o cliente aberta
+[EVENT]	17/03/2022 09:44:26 :	Conexão com o cliente encerrada
+[EVENT]	17/03/2022 09:44:26 :	Página enviada ao cliente
+[EVENT]	17/03/2022 09:44:26 :	Conexão com o cliente encerrada
+[EVENT]	17/03/2022 09:44:27 :	Conexão com o cliente aberta
+[EVENT]	17/03/2022 09:44:27 :	Página enviada ao cliente
+[EVENT]	17/03/2022 09:44:27 :	Conexão com o cliente aberta
+[EVENT]	17/03/2022 09:44:27 :	Conexão com o cliente encerrada
+[EVENT]	17/03/2022 09:44:27 :	Página enviada ao cliente
+[EVENT]	17/03/2022 09:44:27 :	Conexão com o cliente encerrada

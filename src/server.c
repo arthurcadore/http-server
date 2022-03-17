@@ -1,3 +1,4 @@
+// biblioteca e arquivo .c
 #include "server.h"
 
 // Criando string HTTP.
@@ -52,31 +53,39 @@ char webpage[] =
     "através do método "
     "“GET”</p></div></div></div></div></div></div></body></html>";
 
-// Estabelece um socket TCP a partir do protocolo IPV4.
+// Estabelece um socket TCP a partir do protocolo IPV4 (prototipo).
 int create_ipv4_socket() { return socket(AF_INET, SOCK_STREAM, 0); }
 
 int main(int argc, char const *argv[]) {
+    // printar a inicialização do servidor
     log_event("EVENT", "Inicializando servidor");
 
     // Cria uma estrutura para recebimento do IPv4 do servidor e do cliente.
     struct sockaddr_in server_addr, client_addr;
 
+    // armazena o tamanho da "string" do IP do cliente
     socklen_t sin_len = sizeof(client_addr);
     int fd_server, fd_client;
     char buf[2048];
     int on = 1;
 
+    // Executa função de criação do socket e retorna o file descriptor do
+    // socket.
     fd_server = create_ipv4_socket();
+
+    // Verifica se o file descritor é menor que '0', e nesse caso, printa erro
+    // na abertura.
     if (fd_server < 0) {
         log_event("ERROR", "Erro ao criar o socket");
         perror("socket");
         exit(1);
     }
+
+    // caso a função acima não seja executada, é retornado como socket aberto.
     log_event("EVENT", "Socket criado");
 
     // Define os parâmetros da conexão TCP (file descriptor, socket level,
     // reutilização do socket, ponteiro dos dados, tamanho dos dados)
-
     setsockopt(fd_server, SOL_SOCKET, SO_REUSEADDR, &on, sizeof(int));
 
     // Define os parâmetros de conexão do servidor (IPv4 e porta)
@@ -86,7 +95,7 @@ int main(int argc, char const *argv[]) {
     // Seta as possiveis conexões, no caso qualquer endereço IP.
     server_addr.sin_addr.s_addr = INADDR_ANY;
 
-    // Estabele o socket TCP na porta definida.
+    // Estabele o socket TCP (dentro do server) na porta definida.
     if (bind(fd_server, (struct sockaddr *)&server_addr, sizeof(server_addr)) ==
         -1) {
         log_event("ERROR", "Erro ao vincular o socket à porta TCP");
@@ -106,11 +115,14 @@ int main(int argc, char const *argv[]) {
     }
     log_event("EVENT", "Modo de escuta do socket habilitado");
 
+    // loop de recebimento de conexões (será sempre válido)
     while (1) {
         //  Estabelece a conexão entre cliente e servidor.
         fd_client =
             accept(fd_server, (struct sockaddr *)&client_addr, &sin_len);
 
+        // se o file descriptor do socket retornar -1, ocorreu erro na
+        // vinculação do socket.
         if (fd_client == -1) {
             log_event("ERROR", "Erro na conexão com o cliente");
 
@@ -126,10 +138,17 @@ int main(int argc, char const *argv[]) {
             // Finaliza o socket TCP (pelo lado do servidor), para o primeiro
             // processo.
             close(fd_server);
+
+            // seta o buf (no caso 2048) para o valor '0'
             memset(buf, 0, 2048);
+
+            // sobrescreve toda a string com o valor do file descriptor (no caso
+            // 1, para sucesso), mantendo o final da string em 0 (null
+            // terminated)
             read(fd_client, buf, 2047);
 
-            printf("%s\n", buf);
+            // printa a solicitação do navegador (cliente) na CLI.
+            printf("valor do buf = %s\n", buf);
 
             // Envia a string HTTP para o cliente.
             write(fd_client, webpage, sizeof(webpage) - 1);
